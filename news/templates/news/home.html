@@ -1,0 +1,12 @@
+{% extends 'news/layout.html' %}
+
+{%block title%}Новости{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Новости</h1>
+        {{news}}
+        <a href="{% url 'news-detail' el.id %}" class="btn btn-warning">Reed more</a>
+        <a href="{% url 'create' %}" ><button class="btn btn-info"><i class="fas fa-plus-circle"></i>Добавить статью</a></button>
+    </div>
+{% endblock %}

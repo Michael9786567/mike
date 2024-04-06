@@ -1,0 +1,9 @@
+# Query: Grigoriy
+# ContextLines: 1
+
+1 result - 1 file
+
+grisha\news\templates\news\layout.html:
+  15          <img src="{% static 'news/img/epam.webp' %}" alt="лого" >
+  16:         <span class="logo">Michael</span>
+  17          <h3>Навигация</h3>

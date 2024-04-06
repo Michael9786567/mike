@@ -1,0 +1,49 @@
+body{
+    background: bisque;
+}
+aside{
+    float: left;
+    background: lightcoral;
+    width: 20%;
+    padding: 2,5%;
+    height: 100vh;
+    border-right: 5px SOLID #4d4d4d;
+}
+aside img{
+    height: 90px;
+    weight: 90px;
+}
+aside .logo{
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+aside h3 {
+    font-size: 28px;
+}
+aside ul {list-style: none;}
+
+aside ul li{
+    color: #4d4d4d;
+    display: block;
+}
+aside ul li:hover,aside ul a:hover{
+    color: #431e1e;
+    text-decoration: none;
+}
+main.features {
+    float:left;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
+}
+main .features h1 { font-size: 50px;text-align: center;}
+main .features p {max-width:400px; margin: 20px auto}
+main .features form {text-align: center;}
+
+
+form {
+    margin-left: 32%;
+    width: 500px;
+    margin-top: 50px;
+}
